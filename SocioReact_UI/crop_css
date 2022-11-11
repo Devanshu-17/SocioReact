@@ -1,0 +1,32 @@
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: var(--placeholder);
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: var(--placeholder);
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: var(--placeholder);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: var(--placeholder);
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: var(--placeholder);
+}
+
+::placeholder {
+    /* Most modern browsers support this now. */
+    color: var(--placeholder);
+}
